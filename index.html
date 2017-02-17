@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./assets/css/main.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidenav to 120px */
+.w3-sidenav {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidenav (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidenav - hidden on small screens) -->
+<nav class="w3-sidenav w3-center w3-small w3-hide-small">
+  <!-- Avatar image in top left corner -->
+  <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/11054518_10153228497973050_6696826174215988863_n.jpg?oh=8736284e668be45e2591d09b3918a398&oe=5947B902" style="width:100%">
+  <a class="w3-padding-large w3-black" href="#">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#about">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#photos">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a class="w3-padding-large w3-hover-black" href="#contact">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <ul class="w3-navbar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <li class="w3-left" style="width:25% !important"><a href="#">HOME</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#about">ABOUT</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#photos">PHOTOS</a></li>
+    <li class="w3-left" style="width:25% !important"><a href="#contact">CONTACT</a></li>
+  </ul>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo" id="nameTitle"><span class="w3-hide-small"></span> Anusone Nanthavongsa </h1>
+    <h2>|WEB DEVELOPER|</h2>
+    <h3>|MODEL|</h3>
+    <button class="w3-btn w3-light-grey w3-padding-large w3-section w3-hover-grey">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+<br>
+    <img src="" alt="boy" class="w3-image" width="992" height="1108">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Anusone Nanthavongsa</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>June 16, 1986. My life had just begun.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-progress-container">
+      <div class="w3-progressbar" style="width:80%"></div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>
+
+
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Portfolio</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for portfolio -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/12107803_10153728228851554_1917879600283764315_n.jpg?oh=3a62a307ae2da99122b955986a19e597&oe=59408796" style="width:100%;height:600px;">
+        <img src="https://scontent.xx.fbcdn.net/v/t31.0-8/s960x960/11888552_1002751516443696_7671825989575981998_o.jpg?oh=2c1bc31875e6cbeb4e917b78de268130&oe=5935FD22" style="width:100%;height:600px;">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/11071166_10100451193957439_2444951218944818182_n.jpg?oh=40013798e96e872e68d120d0a4072288&oe=593B8D40" style="width:100%;height:600px;">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://scontent.xx.fbcdn.net/v/t1.0-9/12933005_10100590452611979_481713122937403699_n.jpg?oh=a7dd9f480a604813f106e4b76e60e5c2&oe=58FDA075" style="width:100%;height:600px;">
+        <img src="/w3images/chef.jpg" style="width:100%;height:600px;">
+        <img src="/w3images/wedding.jpg" style="width:100%;height:600px;">
+
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Rhode Island, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +401-559-4594</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: ahnuce@gmail.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-btn w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-text-indigo"></i>
+    <i class="fa fa-instagram w3-hover-text-purple"></i>
+    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
+    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
+    <i class="fa fa-linkedin w3-hover-text-indigo"></i>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
