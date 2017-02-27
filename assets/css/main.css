@@ -35,12 +35,12 @@ height: 150px;
 .download {
   text-align: center;
 }
-#spanhome {
+.spanhome {
 
   font-size: 20px;
   color: grey;
 }
-#spanhome2 {
+.spanhome2 {
   opacity: 1;
   font-size: 40px;
 
@@ -55,6 +55,14 @@ height: 150px;
 #developerImg {
   display: flex;
   float: right;
+}
+@media screen and (max-device-width: 300px) {
+  .name2 {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
 }
 
 
@@ -79,7 +87,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image:
-    url("https://scontent.fzty1-2.fna.fbcdn.net/v/t1.0-9/12049226_10100492708327309_3747542843906969873_n.jpg?oh=fb4bc854f45f849ecc1a7e1c6e76385b&oe=59286953");
+    url("https://lh3.google.com/u/0/d/0B-C2lMqYl8ApLXdsQ09DamF2cFk=w1440-h759-iv1");
     height: 89%;
     background-size: contain;
 
