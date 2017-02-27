@@ -56,7 +56,7 @@ height: 150px;
   display: flex;
   float: right;
 }
-@media screen and (max-device-width: 300px) {
+@media screen and (max-device-width: 600px) {
   .name2 {
     visibility: hidden;
     clear: both;
