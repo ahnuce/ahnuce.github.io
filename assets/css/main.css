@@ -64,6 +64,11 @@ height: 150px;
     display: none;
   }
 }
+#name {
+  font-family: amarillo;
+  font-size: 20px;
+  text-shadow: 2px 2px lightblue;
+}
 
 
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
