@@ -1,4 +1,111 @@
-#nameTitle {
-  text-shadow: 2px 2px blue;
-  font-family: amarillo;
+#homediv:hover {
+opacity: .1;
+transition: opacity .5s ease-in-out;
+-moz-transition: opacity .5s ease-in-out;
+-webkit-transition: opacity .5s ease-in-out;
+}
+
+.projectImg {
+  width: 20%;
+  border-style: solid;
+  border-color: blue;
+}
+#footer {
+  width: 100% !important;
+  overflow: hidden;
+}
+
+#name {
+font-weight: bolder;
+  text-align: center;
+  font-family: big caslon;
+}
+#name2 {
+opacity: .9;
+  font-family: interceptor;
+  text-align: center;
+  font-weight: lighter;
+}
+.portfolio {
+height: 150px;
+}
+#portfolio {
+
+}
+.download {
+  text-align: center;
+}
+#spanhome {
+
+  font-size: 20px;
+  color: grey;
+}
+#spanhome2 {
+  opacity: 1;
+  font-size: 40px;
+
+}
+#navhome {
+  color: lightblue;
+}
+#contact {
+  display: block;
+
+}
+#developerImg {
+  display: flex;
+  float: right;
+}
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100% !important;
+    color: #777;
+    line-height: 1.8;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image:
+    url("https://scontent.fzty1-2.fna.fbcdn.net/v/t1.0-9/12049226_10100492708327309_3747542843906969873_n.jpg?oh=fb4bc854f45f849ecc1a7e1c6e76385b&oe=59286953");
+    height: 89%;
+    background-size: contain;
+
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://scontent.xx.fbcdn.net/v/t1.0-9/11071166_10100451193957439_2444951218944818182_n.jpg?oh=40013798e96e872e68d120d0a4072288&oe=593B8D40");
+    min-height: 400px;
+    background-size: contain;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image:
+    url('https://scontent.fzty1-2.fna.fbcdn.net/v/t31.0-8/s960x960/11888552_1002751516443696_7671825989575981998_o.jpg?oh=2c1bc31875e6cbeb4e917b78de268130&oe=5935FD22');
+    min-height: 400px;
+    background-size: contain;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
 }
