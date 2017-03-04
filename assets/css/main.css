@@ -106,7 +106,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image:
-    url("https://drive.google.com/file/d/0B-C2lMqYl8ApYmR3MjY5bE5ILVk/view?usp=sharing");
+    url("https://lh3.google.com/u/0/d/0B-C2lMqYl8ApLXdsQ09DamF2cFk=w1440-h759-iv1");
     height: 89%;
     background-size: contain;
 
@@ -115,7 +115,7 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image:
-    url("https://lh3.google.com/u/0/d/0B-C2lMqYl8ApLXdsQ09DamF2cFk=w1440-h759-iv1");
+    url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-0/p206x206/11071166_10100451193957439_2444951218944818182_n.jpg?oh=859ce16fe6b48f650e202dc9aed4e553&oe=592E50F2");
     min-height: 400px;
     background-size: contain;
 }
