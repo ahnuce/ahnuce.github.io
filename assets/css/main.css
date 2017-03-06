@@ -94,6 +94,18 @@ body, html {
     padding: 0px !important;
 }
 
+#resume {
+  background-color: lightblue;
+  border-radius: 15px;
+  text-decoration: none !important;
+  height: 50px;
+  width: 120px;
+  opacity: .7;
+}
+.link {
+  text-decoration: none !important;
+}
+
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -106,7 +118,7 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-1 {
     background-image:
-    url("https://lh3.google.com/u/0/d/0B-C2lMqYl8ApLXdsQ09DamF2cFk=w1440-h759-iv1");
+    url("../images/anusone1.jpg");
     height: 89%;
     background-size: contain;
 
@@ -115,7 +127,7 @@ body, html {
 /* Second image (Portfolio) */
 .bgimg-2 {
     background-image:
-    url("https://scontent.fzty1-1.fna.fbcdn.net/v/t1.0-0/p206x206/11071166_10100451193957439_2444951218944818182_n.jpg?oh=859ce16fe6b48f650e202dc9aed4e553&oe=592E50F2");
+    url("../images/anusone2.jpg");
     min-height: 400px;
     background-size: contain;
 }
@@ -123,7 +135,7 @@ body, html {
 /* Third image (Contact) */
 .bgimg-3 {
     background-image:
-    url('https://scontent.fzty1-2.fna.fbcdn.net/v/t31.0-8/s960x960/11888552_1002751516443696_7671825989575981998_o.jpg?oh=2c1bc31875e6cbeb4e917b78de268130&oe=5935FD22');
+    url('../images/anusone3.jpg');
     min-height: 400px;
     background-size: contain;
 }
