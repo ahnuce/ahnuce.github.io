@@ -26,3 +26,7 @@ function toggleFunction() {
         x.className = x.className.replace(" w3-show", "");
     }
 }
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});

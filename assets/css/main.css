@@ -4,6 +4,14 @@ transition: opacity .5s ease-in-out;
 -moz-transition: opacity .5s ease-in-out;
 -webkit-transition: opacity .5s ease-in-out;
 }
+#pro1:hover, #pro2:hover, #pro3:hover, #pro4:hover {
+  transform: scale(1.1);
+}
+#pro1, #pro2, #pro3, #pro4 {
+  transition: all .2s ease-in-out;
+padding: 10px;
+margin: 10px;
+}
 
 .projectImg {
   width: 20%;
@@ -26,12 +34,8 @@ opacity: .9;
   text-align: center;
   font-weight: lighter;
 }
-.portfolio {
-height: 150px;
-}
-#portfolio {
 
-}
+
 .download {
   text-align: center;
 }
