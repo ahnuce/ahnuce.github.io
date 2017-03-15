@@ -146,7 +146,7 @@ body, html {
 .bgimg-3 {
     background-image:
     url('../images/anusone3.jpg');
-    min-height: 400px;
+    min-height:89%;
     background-size: contain;
 }
 
