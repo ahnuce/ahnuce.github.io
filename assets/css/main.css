@@ -119,7 +119,7 @@ body, html {
 
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -132,7 +132,6 @@ body, html {
     url("../images/anusone1.jpg");
     height: 89%;
     background-size: contain;
-
 }
 
 /* Second image (Portfolio) */
@@ -144,10 +143,17 @@ body, html {
 }
 
 /* Third image (Contact) */
-.bgimg-3 {
+/* .bgimg-3 {
     background-image:
     url("../images/anusone4.jpg");
     min-height:89%;
+    background-size: contain;
+} */
+
+.bgimg-4 {
+    background-image:
+    url("../images/anusone4.jpg");
+    height: 89%;
     background-size: contain;
 }
 
@@ -156,7 +162,7 @@ body, html {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
         background-attachment: scroll;
     }
 }
