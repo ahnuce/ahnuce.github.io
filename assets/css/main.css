@@ -76,7 +76,7 @@ opacity: .9;
   }
 }
 #name {
-  font-family: 'amarillo';
+  font-family: amarillo;
   src: url(https://github.com/ahnuce/ahnuce.github.io/blob/master/Amarillo.ttf);
   font-size: 20px;
   text-shadow: 2px 2px lightblue;
