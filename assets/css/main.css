@@ -29,15 +29,10 @@ transform: scale(1.2);
   overflow: hidden;
 }
 
-#name {
-font-weight: bolder;
-  text-align: center;
-  font-family: big caslon;
-}
+
 #name2 {
 opacity: .9;
   font-family: interceptor;
-  src: url(https://github.com/ahnuce/ahnuce.github.io/blob/master/interceptor.ttf./interceptor.ttf);
   text-align: center;
   font-weight: lighter;
 }
@@ -75,12 +70,14 @@ opacity: .9;
     display: none;
   }
 }
-#name {
-  font-family: Amarillo;
-  src: url(https://github.com/ahnuce/ahnuce.github.io/blob/master/Amarillo.ttf./Amarillo.ttf);
-  font-size: 20px;
+#anusone {
+font-family: 'Ruthie', cursive;
+  font-size: 40px;
+  font-weight: 800;
   text-shadow: 2px 2px lightblue;
 }
+
+
 
 
 #slide {
@@ -124,6 +121,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 /* First image (Logo. Full height) */
@@ -132,6 +130,7 @@ body, html {
     url("../images/anusone1.jpg");
     height: 89%;
     background-size: contain;
+
 }
 
 /* Second image (Portfolio) */
@@ -143,19 +142,21 @@ body, html {
 }
 
 /* Third image (Contact) */
-/* .bgimg-3 {
-    background-image:
-    url("../images/anusone4.jpg");
-    min-height:89%;
-    background-size: contain;
-} */
+.bgimg-3 {
+    /* The image used */
+    background-image: url("../images/anusone3.jpg");
 
-.bgimg-4 {
-    background-image:
-    url("../images/anusone4.jpg");
-    height: 89%;
-    background-size: contain;
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
