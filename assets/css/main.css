@@ -32,7 +32,7 @@ transform: scale(1.2);
 
 #name2 {
 opacity: .9;
-  font-family: interceptor;
+  font-family: gravitas one;
   text-align: center;
   font-weight: lighter;
 }
@@ -137,7 +137,8 @@ body, html {
 .bgimg-2 {
     background-image:
     url("../images/anusone2.jpg");
-    min-height: 300px;
+    height: 350px;
+
     background-size: contain;
 }
 
@@ -147,14 +148,15 @@ body, html {
     background-image: url("../images/anusone3.jpg");
 
     /* Set a specific height */
-    height: 500px;
+    height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
+
 
 
 
