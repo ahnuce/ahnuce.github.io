@@ -1,0 +1,29 @@
+A. Algortithm Name
+B. Summary
+C. Historical importance/Impact
+D. Selection Rationale
+
+
+A. PageRank
+B. Created by Larry Page and Sergey Brin. which evaluates the quality and quantity of links to a webpage to determine a relative score of that page's importance and authority on a 0 to 10 scale. It measures the importance of website pages.
+C. PageRank has helped Google become the number one search engine in the world. It has become so popular that searching for something on the internet can be said as "Google it". The impact from google has helped shape the online world into what it is now.
+D. Google is my best friend as a developer. There isnt a day that I dont use google.
+
+
+
+
+
+A. Facebook's news feed algorithm
+B. Your news feed on FB is predetermined by this algorithm. Unless your preferences are set to show all the activities and updates of all your friends in chronological order, youre viewing what the algorithm wants to show you. It takes into account several factors like who posted it, number of comments, what type of post, and popularity. With the algorithm FB gets to choose what content you see instead of just showing you everything from everyone youre connected to.
+C. FB is the worlds largest social media site so the impact is humongous. Reaching almost 2 billion users, Facebook is extremely important in the world today.
+D. I dont want to admit it but I use facebook alot. That is all
+
+A. RSA algorithm
+B. RSA company founded this. Solved how to share public keys between independent platforms and final users.
+C. Cryptography and cyber security are essential for the sensitive information being sent online.
+D. I have an amazon account that I just used yesterday. Without this I would never buy anything online ever. Its too risky without this algorithm.
+
+A. Random number Generation
+B. Theres no true random number generator but we have pseudo random number generators that are sufficient.
+C. These are used in a large number of applications from interlink connections, cryptography, secure hash algorithm, video games, AI, etc. It is used in so many things.
+D. This is something that is so simple yet is a major factor in so many things.
