@@ -98,7 +98,19 @@ font-family: 'Permanent Marker';
   box-sizing: border-box;
 }
 
+.icons {
+  width: 5em;
+  height:4.5em;
 
+}
+
+.about {
+  font-family: 'Ultra',serif;
+}
+
+#aboutme{
+  width: 100%;
+}
 
 
 #slide {
