@@ -3,13 +3,15 @@
 <title>Anusone Nanthavongsa's Portfolio Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <link href="https://fonts.googleapis.com/css?family=Karla|Ultra" rel="stylesheet">
+
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/main.css">
-<link href="https://fonts.googleapis.com/css?family=Gravitas+One|Ruthie|Vast+Shadow|Permanent+Marker" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Gravitas+One|Ruthie|Vast+Shadow" rel="stylesheet">
 <script src="main.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -55,7 +57,8 @@
     <br>
     <br>
     <br>
-<span class="w3-hide-small" class="spanhome"><span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity" id="name2" class="wrapper fade-in w3-animate-opacity">FULL STACK DEVELOPER</span></span>
+<span class="w3-hide-small" class="spanhome"><span class="w3-center w3-padding-xlarge w3-black w3-xlarge w3-wide w3-animate-opacity" id="name2" class="wrapper fade-in ws
+  3-animate-opacity">WEB DEVELOPER</span></span>
 
       </div>
   </div>
@@ -70,41 +73,29 @@
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">
+    <i class="fa fa-user w3-margin-right"></i>ANUSONE NANTHAVONGSA
+  <br>
 
+  </h3>
 
   <br>
   <br>
   <br>
 
 <br>
-
 
   <div class="w3-row">
+    <!-- Hide this text on small devices -->
     <div class="w3-center">
-        <div  id="about">
-<h1 class='about'>ABOUT ME</h1>
-    <div class="w3-center" id="aboutme">
-      <h3>I am passionate and driven in anything that I do. I find satisfaction in not only solving a problem but solving it in the easiest way possible. Over the years, I've been in countless jobs where I felt stagnant and unable to grow. I dabbled in numerous industries including commercial modeling, restaurants, casinos, warehouses, delivery services, supermarkets, offices, and medical buildings. Day in and day out I would feel like my mind and skills were being wasted on someone elses dreams. Then General Assembly and the WDI program changed my life. They gave me the invaluable gift of cutting edge skills in full stack web development that has invigorated my life. They have unleashed my thirst for knowledge in this infinitely growing field. I am extremely excited to continue on this journey in full stack development.</h3>
-
+        <div class="w3-card-4">
+<h1 style="text-decoration:underline;font-family:vast shadow;" >ABOUT ME</h1>
+    <div class="w w3-padding-large w3-center">
+      <h3>I am passionate and driven in anything that I do. I find satisfaction in not only solving a problem but solving it in the easiest way possible. Over the years, I've been in countless jobs where I felt stagnant and unable to grow. I dabbled in numerous industries including commercial modeling, restaurants, casinos, warehouses, delivery services, supermarkets, offices, and medical buildings. Day in and day out I would feel like my mind and skills were being wasted on someone elses dreams. Then General Assembly and the WDI program changed my life. They gave me the invaluable gift of cutting edge skills in full stack web development that has invigorated my life. They have unleashed my thirst for knowledge in this infinitely growing field.</h3>
     </div>
-    <br>
-<h1 class='about'>SKILLS</h1>
-<br>
-      <img class="icons" src="./assets/images/angular.png" alt="">
-      <img class="icons" src="./assets/images/bootstrap.png" alt="">
-      <img class="icons" src="./assets/images/css.png" alt="">
-      <img class="icons" src="./assets/images/expressnode.png" alt="">
-      <img class="icons" src="./assets/images/github.png" alt="">
-      <img class="icons" src="./assets/images/heroku.png" alt="">
-      <img class="icons" src="./assets/images/html.png" alt="">
-      <img class="icons" src="./assets/images/jquery.png" alt="">
-      <img class="icons" src="./assets/images/mongo.png" alt="">
-      <img class="icons" src="./assets/images/nodejs.png" alt="">
-      <img class="icons" src="./assets/images/rails" alt="">
     </div>
   </div>
     </div>
-    <br>
     <br>
     <br>
   <br>
@@ -125,7 +116,7 @@
 
 
 <!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min" id="pic2">
+<div class="bgimg-2 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-light-grey w3-wide">PORTFOLIO</span>
   </div>
@@ -139,24 +130,21 @@
   <br>
   <br>
   <h3 class="w3-center">Projects</h3>
-  <h5>More Projects can be found at my GITHUB  <a href="https://github.com/ahnuce">HERE</a></h5>
-  <br>
-
+  <h5>Hover over for description</h5>
+  <p class="w3-center"></p>
 
   <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
 
-  <div class="w3-card" class="portfolio1" id="pro1">
-    <div class="w3-col" ><h2>Roast Masters</h2>
-    <a href="https://roastmasters.herokuapp.com/"><img src="./assets/images/roastpic.png" style="width:100%;height:250px;border-style:solid;border-color:lightblue;" onclick="onClick(this)" class="w3-hover-opacity" alt="Roast Masters" title="Roast Masters: A site where roasting is encouraged. Crack your best jokes on our topic pictures and users can then vote for their favorites. Rankings are shown to see who is the best. This app was built using Ruby on Rails. The CanCan, Rails_admin, devise gems were used to handle user login, authorization, authentication, and admin. The acts_as_votable gem was used for the comment voting system."  ></a>
+  <div class="w3-card w3-half" class="portfolio1" id="pro1">
+    <div class="w3-col"><h2>Roast Masters</h2>
+    <a href="https://roastmasters.herokuapp.com/"><img src="./assets/images/roastpic.png" style="width:100%;height:250px;border-style:solid;border-color:lightblue;" onclick="onClick(this)" class="w3-hover-opacity" alt="Roast Masters" title="Roast Masters: A place where roasting is encouraged. Crack your best jokes on our topic pictures and users can then vote for their favorites. Rankings are shown to see who is the best. This app was built using Ruby on Rails. The CanCan, Rails_admin, devise gems were used to handle user login, authorization, authentication, and admin. The acts_as_votable gem was used for the comment voting system." data-toggle="popover" data-trigger="hover" data-content=""></a>
     <div class="w3-center">
                 <a href="https://roastmasters.herokuapp.com/" target="_blank" class="w3-btn w3-light-blue w3-margin-right">DEMO</a>
                 <a href="https://github.com/ahnuce/roastmasters" target="_blank" class="w3-btn w3-light-blue">GITHUB</a>
               </div>
     </div>
-    <p>A site where roasting is encouraged. Crack your best jokes on our topic pictures and users can then vote for their favorites. Rankings are shown to see who is the best. This app was built using Ruby on Rails. The CanCan, Rails_admin, devise gems were used to handle user login, authorization, authentication, and admin. The acts_as_votable gem was used for the comment voting system.</p>
   </div>
-  <br>
-  <div class="w3-card" class="portfolio1" id="pro2">
+  <div class="w3-card w3-half" class="portfolio1" id="pro2">
     <div class="w3-col"><h2>Simple JS Timer</h2>
     <a href="http://htmlpreview.github.io/?https://github.com/ahnuce/timer_js/blob/master/index.html"><img src="./assets/images/timer.png" style="width:100%;height:250px;border-style:solid;border-color:lightblue;" onclick="onClick(this)" class="w3-hover-opacity" alt="Simple Timer" title="Simple Timer: This is a simple timer app with a start, pause and reset button. Built using javascript, html, and css" data-toggle="popover" data-trigger="hover" data-content=""></a>
     <div class="w3-center">
@@ -164,10 +152,9 @@
                 <a href="https://github.com/ahnuce/timer_js" target="_blank" class="w3-btn w3-light-blue">GITHUB</a>
               </div>
     </div>
-    <p>This is a simple timer app with a start, pause and reset button. Built using javascript, html, and css. This was my first web developer project I did on my own. It isn't much but it helped me get to where I am now.</p>
   </div>
   <br>
-  <div class="w3-card" class="portfolio1" id="pro3">
+  <div class="w3-card w3-half" class="portfolio1" id="pro3">
     <div class="w3-col"><h2>Anume</h2>
     <a href="https://anume.herokuapp.com/"><img src="./assets/images/anume.png" style="width:100%;height:250px;border-style:solid;border-color:lightblue;" onclick="onClick(this)" class="w3-hover-opacity" alt="Anume" title="Anume: A rails app that was built using jquery, html, and css. This app allows users to login to post, comment, and edit things about their favorite animes." data-toggle="popover" data-trigger="hover" data-content=""></a>
     <div class="w3-center">
@@ -175,9 +162,18 @@
                 <a href="https://github.com/ahnuce/roastmasters" target="_blank" class="w3-btn w3-light-blue">GITHUB</a>
               </div>
     </div>
-    <p> A rails app that was built using jquery, html, and css. This app allows users to login to post, comment, and edit things about their favorite animes</p>
   </div>
 
+  <div class="w3-card w3-half" class="portfolio1" id="pro4">
+    <div class="w3-col"><h2>In Progress...</h2>
+    <a href="#"><img src="./assets/images/sixteenbars.png" style="width:100%;height:250px;border-style:solid;border-color:lightblue;" onclick="onClick(this)" class="w3-hover-opacity" alt="SixteenBars" title="Sixteen Bars: Sixteen Bars is a MEAN Stack application built from scratch. Users will be able to sign up and sign in to create, read, update, and destroy 'poems'. Poems will contain 16 bars and will be posted and voted upon. A leaderboard will show the rankings of the most favorited poems." data-toggle="popover" data-trigger="hover" data-content="wooop"></a>
+    <div class="w3-center">
+                <a href="anusone.com/16barsfrontend" target="_blank" class="w3-btn w3-light-blue w3-margin-right">DEMO</a>
+                <a href="www.github.com/ahnuce/16barsfrontend" target="_blank" class="w3-btn w3-light-blue">GITHUB Frontend</a>
+                <a href="www.github.com/ahnuce/16barsbackend" target="_blank" class="w3-btn w3-light-blue" >GITHUB Backend</a>
+              </div>
+    </div>
+  </div>
 
 </div>
 
@@ -216,7 +212,9 @@
       <div class="w3-large w3-margin-bottom" id="contact">
         <h2 class="w3-center">I'd love your feedback!</h2>
         <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or send me a message:</p>
+
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Rhode Island<br>
+
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +401-559-4594<br>
         <a class="link" href="mailto:ahnuce@gmail.com"><i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right" value="ahnuce@gmail.com"></i> Click here to Email me </a><br>
         <i class="fa fa-file-text fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a class="link" href="https://www.github.com/ahnuce">Github Portfolio</a>
@@ -244,7 +242,7 @@
   <a href="#top" class="w3-btn w3-padding w3-hover-blue"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <br>
   <br>
-  <p>designed by Anusone Nanthavongsa</p>
+  <p>made by Anusone Nanthavongsa</p>
 </footer>
 
 
